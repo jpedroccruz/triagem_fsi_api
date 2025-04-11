@@ -45,7 +45,7 @@ export default async function continueScreening(req, res) {
       apiKey: process.env.OPENAI_API_KEY
     })
 
-    let response = await openai.chat.completions.create({
+    const response = await openai.chat.completions.create({
       model: "gpt-4o-mini",
       store: true,
       messages: [
