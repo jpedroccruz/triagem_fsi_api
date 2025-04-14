@@ -1,7 +1,6 @@
 import express, { json } from 'express'
-import getUserData from './routes/getUserData.js'
-import updateData from './routes/updateData.js'
-import continueScreening from './routes/continueScreening.js'
+import userRoute from './routes/userRoute'
+import screeningRoute from './routes/screeningRoute'
 import cors from 'cors'
 
 const app = express()
@@ -16,8 +15,7 @@ app.get('/', (_, res) => {
   res.status(200).send({ menssage: "Hello World" })
 }) 
 
-app.get('/user', getUserData)
-app.put('/user', updateData)
-app.post('/screening', continueScreening)
+app.use(userRoute)
+app.use(screeningRoute)
 
 app.listen(3333, () => console.log("Server running on port 3333."))
