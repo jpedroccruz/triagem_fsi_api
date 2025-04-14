@@ -1,5 +1,5 @@
 import { Router } from "express"
-import continueScreening from "./continueScreening"
+import continueScreening from "../controllers/screeningController"
 
 const screeningRoute = Router()
 
