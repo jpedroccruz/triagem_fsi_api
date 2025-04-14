@@ -17,7 +17,7 @@ app.get('/', (_, res) => {
 }) 
 
 app.get('/user', getUserData)
-app.put('/user/:susCode', updateData)
+app.put('/user', updateData)
 app.post('/screening/:susCode', continueScreening)
 
 app.listen(3333, () => console.log("Server running on port 3333."))
