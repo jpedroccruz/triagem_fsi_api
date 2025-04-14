@@ -5,9 +5,9 @@ import OpenAI from 'openai'
 dotenv.config()
 
 export default async function continueScreening(req, res) {
-  const { susCode } = req.params
+  const { susCode } = req.query
   const { userFeelings } = req.body
-  let { allergies } = req.body
+  let { allergies } = req.query
 
   if (!allergies) allergies = 'Nenhuma'
 
