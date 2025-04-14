@@ -1,6 +1,6 @@
 import express, { json } from 'express'
-import userRoute from './routes/userRoute'
-import screeningRoute from './routes/screeningRoute'
+import userRoute from './routes/userRoute.js'
+import screeningRoute from './routes/screeningRoute.js'
 import cors from 'cors'
 
 const app = express()

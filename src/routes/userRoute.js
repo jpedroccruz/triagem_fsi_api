@@ -1,10 +1,9 @@
 import { Router } from "express"
-import getUserData from "./getUserData"
-import updateData from "./updateData"
+import { getUserData, updateUserData } from "../controllers/userController.js"
 
 const userRoute = Router()
 
 userRoute.get('/user', getUserData)
-userRoute.put('/user', updateData)
+userRoute.put('/user', updateUserData)
 
 export default userRoute
