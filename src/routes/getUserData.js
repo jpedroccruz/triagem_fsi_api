@@ -1,7 +1,7 @@
 import connection from '../connection.js'
 
 export default async function getUserData(req, res) {
-  const { susCode } = req.params
+  const { susCode } = req.query
 
   try {
     const query = `SELECT name, born_at, sex, color, civil_state, profession, city, neighborhood, state, street, street_number FROM users WHERE sus_code = ${susCode}`
