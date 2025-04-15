@@ -22,7 +22,7 @@ Depois de fazer alguns designs como protótipos, o grupo decidiu fazer uma aplic
 
 ## Banco de Dados
 
-Para simular os dados vindo da base de dados do SUS, foi utilizado o banco relacional MySQL com uma única tabela contendo informações dos pacientes.
+Para simular os dados vindos da base de dados do SUS, foi utilizado o banco relacional MySQL com uma única tabela contendo algumas informações dos pacientes.
 
 ```sql
 -- CreateTable
