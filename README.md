@@ -1,8 +1,10 @@
 # Triagem API
 
-A atividade proposta pelo professor Cristiano do Instituto Federal do Espírito Santo (IFES) era uma Hackathon virtual para mostrar algumas ideias de problemas que podem ser resolvidos com Inteligência Artificial (IA). Para o meu projeto, meu grupo e eu escolhemos resolver o problema do atraso durante o processo da triagem.
+A atividade proposta pelo professor Cristiano do Instituto Federal do Espírito Santo (IFES) era uma Hackathon virtual, onde seriam mostradas algumas ideias de problemas que podem ser resolvidos utilizando Inteligência Artificial (IA).
 
-Para resolver esse problema, foram elaboradas algums pesuisas pesquisas para entender melhor o tema. Logo em seguida começaram a surgir ideias de como fazer a triagem utilizando IA.
+Para o meu projeto, meu grupo e eu escolhemos resolver o problema do atraso durante o processo de triagem. Esse processo busca fazer a classificação do risco de pessoas no antedimento de hospitais.
+
+Para resolver esse problema, foram elaboradas algums pesquisas para entender melhor o tema. Logo em seguida, começaram a surgir ideias de como fazer a triagem utilizando IA.
 
 Depois de fazer alguns designs como protótipos, o grupo decidiu fazer uma aplicação web para mostrar fluxo de como se daria o protótipo.
 
@@ -22,7 +24,7 @@ Depois de fazer alguns designs como protótipos, o grupo decidiu fazer uma aplic
 
 ## Banco de Dados
 
-Para simular os dados vindos da base de dados do SUS, foi utilizado o banco relacional MySQL com uma única tabela contendo algumas informações dos pacientes.
+Para simular os dados vindos da base de dados do SUS, foi utilizado o banco de dados relacional MySQL com uma única tabela contendo algumas informações dos pacientes.
 
 ```sql
 -- CreateTable
